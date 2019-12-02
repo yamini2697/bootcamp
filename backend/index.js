@@ -27,13 +27,10 @@ function readFile() {
         }
 
     })
-
 }
-var response=readFile();
-
-            app.get('/employee',function (req,res) {
-                let respo = JSON.parse(readFile());
-                res.json(respo);
+    app.get('/employee',function (req,res) {
+        let respo = JSON.parse(readFile());
+        res.json(respo);
     })
 
     app.get('/admin/ctc',function(req,res){
@@ -46,3 +43,4 @@ var response=readFile();
 app.listen(5000,()=>{
     console.log("server is running on port 5000");
 })
+
