@@ -30,11 +30,9 @@ function readFile() {
 
 }
 var response=readFile();
-console.log(response)
 
             app.get('/employee',function (req,res) {
                 let respo = JSON.parse(readFile());
-                console.log(respo)
                 res.json(respo);
                 //  let remove = req.query.remove;
                 //  if(remove==="salary"){
@@ -69,9 +67,7 @@ console.log(response)
 
     app.get('/admin/ctc',function(req,res){
         const resp=JSON.parse(readFile());
-        console.log(resp);
         var totalSal=resp.reduce((accumulator,emp)=>accumulator+emp.salary,0)
-        console.log(totalSal);
         res.json(totalSal)
     })
 
