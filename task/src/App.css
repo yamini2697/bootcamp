@@ -1,0 +1,54 @@
+
+.flex-container {
+  display: flex;
+  background: silver;
+  
+}
+.secondhead{
+  display:flex;
+  justify-content: space-between;
+
+}
+.head{
+color: red;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 20px;
+font-style: normal;
+}
+
+.total{
+  /* color:blue; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-style:normal;
+  border-radius: 15px;
+  border: 1px solid blue;
+  background: linear-gradient(to right, white 50%,blue 50%);
+  padding :7px;
+ }
+
+
+  #span1 {
+  
+   color:blue; 
+   float:left;
+    
+  }
+  #span2 {
+  
+   color:white; 
+   margin-left: 30px;
+   
+  }
+
+  .space{
+    display :flex;  
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  
