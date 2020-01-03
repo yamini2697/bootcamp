@@ -1,0 +1,33 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.form-color{
+  background:black; 
+  padding-top: 15px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+.form-input{
+    padding:5px 20px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.heading1{ 
+    color:rgba(207, 14, 46, 0.795);
+    text-align: center;  
+}
+
+.submit-btn{
+    background-color:teal;
+    margin-left: 70px;
+    padding:5px 20px;
+    font-size: 15px;
+    color: whitesmoke;
+    
+}
