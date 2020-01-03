@@ -1,0 +1,21 @@
+.view-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .heading{
+      color:palevioletred;
+      text-align: center;
+      font-style: italic;
+  }
+
+  table{
+      background-color: rgb(34, 78, 92);
+      color: whitesmoke;
+      padding:40px 60px;
+      
+  }
+
+  table,td,tr{
+      border:1px solid white;
+  }
